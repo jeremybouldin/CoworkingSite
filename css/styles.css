@@ -1,10 +1,84 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
 }
 
-/*
-Challenge:
-1. Get this layout looking like the 
-   screenshots on the slide.
-*/  
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+
+/* Header */
+nav {
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+nav ul {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    gap: 10px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icon {
+    width: 25px;
+}
+
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+.item {
+    position: relative;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    display: flex;
+    margin: 0 25px;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.img-banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #cd6858;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+button {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    align-self: center  ;    
+}
